@@ -1,0 +1,25 @@
+{
+  "name": "node-confirm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aozora0000/node-confirm.git"
+  },
+  "keywords": [
+    "terminal"
+  ],
+  "author": "aozora0000",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aozora0000/node-confirm/issues"
+  },
+  "homepage": "https://github.com/aozora0000/node-confirm#readme",
+  "description": "",
+  "bin": {
+    "node-confirm": "index.js"
+  }
+}
