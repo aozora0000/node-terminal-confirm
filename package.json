@@ -1,5 +1,5 @@
 {
-  "name": "node-confirm",
+  "name": "node-terminal-confirm",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aozora0000/node-confirm.git"
+    "url": "git+https://github.com/aozora0000/node-terminal-confirm.git"
   },
   "keywords": [
     "terminal"
@@ -15,11 +15,11 @@
   "author": "aozora0000",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aozora0000/node-confirm/issues"
+    "url": "https://github.com/aozora0000/node-terminal-confirm/issues"
   },
-  "homepage": "https://github.com/aozora0000/node-confirm#readme",
+  "homepage": "https://github.com/aozora0000/node-terminal-confirm#readme",
   "description": "",
   "bin": {
-    "node-confirm": "index.js"
+    "node-terminal-confirm": "index.js"
   }
 }
