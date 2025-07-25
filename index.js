@@ -7,11 +7,11 @@ const rl = readline.createInterface({
 });
 
 // デフォルトのプロンプトメッセージ
-const defaultPrompt = 'continue [Y/n]?';
+const defaultPrompt = 'continue';
 // コマンドライン引数から最初の引数を取得、なければデフォルトを使用
 const prompt = process.argv[2] || defaultPrompt;
 
-rl.question(`${prompt} `, (answer) => {
+rl.question(`${prompt} [Y/n]?`, (answer) => {
     // 入力を小文字に変換して処理
     const normalizedAnswer = answer.toLowerCase().trim();
 
